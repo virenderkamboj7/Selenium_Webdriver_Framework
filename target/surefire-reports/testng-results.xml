@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing project" duration-ms="74714" started-at="2020-09-22T07:29:50Z" finished-at="2020-09-22T07:31:05Z">
+    <groups>
+    </groups>
+    <test name="User Registration" duration-ms="74714" started-at="2020-09-22T07:29:50Z" finished-at="2020-09-22T07:31:05Z">
+      <class name="com.practice.testcases.TC_test_01">
+        <test-method status="PASS" signature="tc()[pri:0, instance:com.practice.testcases.TC_test_01@458ad742]" name="tc" is-config="true" duration-ms="17073" started-at="2020-09-22T07:29:50Z" finished-at="2020-09-22T07:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc -->
+        <test-method status="PASS" signature="signin()[pri:0, instance:com.practice.testcases.TC_test_01@458ad742]" name="signin" duration-ms="13494" started-at="2020-09-22T07:30:07Z" finished-at="2020-09-22T07:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.TC_test_01@458ad742]" name="screenShot" is-config="true" duration-ms="665" started-at="2020-09-22T07:30:20Z" finished-at="2020-09-22T07:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signin status=SUCCESS method=TC_test_01.signin()[pri:0, instance:com.practice.testcases.TC_test_01@458ad742] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- com.practice.testcases.TC_test_01 -->
+      <class name="com.practice.testcases.TC_test_02">
+        <test-method status="PASS" signature="tc()[pri:0, instance:com.practice.testcases.TC_test_02@5afa04c]" name="tc" is-config="true" duration-ms="15133" started-at="2020-09-22T07:30:21Z" finished-at="2020-09-22T07:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc -->
+        <test-method status="PASS" signature="profuct_flow()[pri:0, instance:com.practice.testcases.TC_test_02@5afa04c]" name="profuct_flow" duration-ms="27604" started-at="2020-09-22T07:30:36Z" finished-at="2020-09-22T07:31:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profuct_flow -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.TC_test_02@5afa04c]" name="screenShot" is-config="true" duration-ms="722" started-at="2020-09-22T07:31:04Z" finished-at="2020-09-22T07:31:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=profuct_flow status=SUCCESS method=TC_test_02.profuct_flow()[pri:0, instance:com.practice.testcases.TC_test_02@5afa04c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- com.practice.testcases.TC_test_02 -->
+    </test> <!-- User Registration -->
+  </suite> <!-- Testing project -->
+</testng-results>
