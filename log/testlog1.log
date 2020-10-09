@@ -140,3 +140,13 @@
 2020-09-22 13:00:51,648 [main] INFO com.practice.testcases.TC_test_02 - Clicked on "Nikon" button
 2020-09-22 13:01:00,203 [main] INFO com.practice.testcases.TC_test_02 - Clicked on first product
 2020-09-22 13:01:04,364 [main] INFO com.practice.testcases.TC_test_02 - Click on "Buy Now" button
+2020-10-04 15:57:55,341 [main] INFO com.practice.testcases.TC_test_01 - URL Opned
+2020-10-04 15:58:54,269 [main] INFO com.practice.testcases.TC_test_01 - Clicked on Navigation icon
+2020-10-04 15:58:56,736 [main] INFO com.practice.testcases.TC_test_01 - Clicked on Sign in button
+2020-10-04 15:58:58,023 [main] INFO com.practice.testcases.TC_test_01 - Clicked on "Create an Account" button
+2020-10-04 15:58:59,404 [main] INFO com.practice.testcases.TC_test_01 - User name is entered
+2020-10-04 15:58:59,555 [main] INFO com.practice.testcases.TC_test_01 - Email id is entered
+2020-10-04 15:58:59,615 [main] INFO com.practice.testcases.TC_test_01 - Clicked in country code button
+2020-10-04 15:58:59,768 [main] INFO com.practice.testcases.TC_test_01 - +91 is selected as country code
+2020-10-04 15:58:59,885 [main] INFO com.practice.testcases.TC_test_01 - Mobile number is entered
+2020-10-04 15:58:59,997 [main] INFO com.practice.testcases.TC_test_01 - Password is entered

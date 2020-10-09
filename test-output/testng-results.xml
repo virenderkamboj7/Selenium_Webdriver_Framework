@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Testing project" duration-ms="68687" started-at="2020-09-21T12:55:41Z" finished-at="2020-09-21T12:56:49Z">
+  <suite name="Default suite" duration-ms="87544" started-at="2020-10-04T10:34:01Z" finished-at="2020-10-04T10:35:28Z">
     <groups>
     </groups>
-    <test name="User Registration" duration-ms="68687" started-at="2020-09-21T12:55:41Z" finished-at="2020-09-21T12:56:49Z">
+    <test name="Default test" duration-ms="87544" started-at="2020-10-04T10:34:01Z" finished-at="2020-10-04T10:35:28Z">
       <class name="com.practice.testcases.TC_test_01">
-        <test-method status="PASS" signature="tc()[pri:0, instance:com.practice.testcases.TC_test_01@5622fdf]" name="tc" is-config="true" duration-ms="16524" started-at="2020-09-21T12:55:41Z" finished-at="2020-09-21T12:55:57Z">
+        <test-method status="PASS" signature="tc()[pri:0, instance:com.practice.testcases.TC_test_01@6093dd95]" name="tc" is-config="true" duration-ms="29001" started-at="2020-10-04T10:34:01Z" finished-at="2020-10-04T10:34:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc -->
-        <test-method status="PASS" signature="signin()[pri:0, instance:com.practice.testcases.TC_test_01@5622fdf]" name="signin" duration-ms="11049" started-at="2020-09-21T12:55:57Z" finished-at="2020-09-21T12:56:08Z">
+        <test-method status="PASS" signature="signin()[pri:0, instance:com.practice.testcases.TC_test_01@6093dd95]" name="signin" duration-ms="57873" started-at="2020-10-04T10:34:30Z" finished-at="2020-10-04T10:35:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.TC_test_01@5622fdf]" name="screenShot" is-config="true" duration-ms="712" started-at="2020-09-21T12:56:08Z" finished-at="2020-09-21T12:56:09Z">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.TC_test_01@6093dd95]" name="screenShot" is-config="true" duration-ms="637" started-at="2020-10-04T10:35:27Z" finished-at="2020-10-04T10:35:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=signin status=SUCCESS method=TC_test_01.signin()[pri:0, instance:com.practice.testcases.TC_test_01@5622fdf] output={null}]]]>
+                <![CDATA[[TestResult name=signin status=SUCCESS method=TC_test_01.signin()[pri:0, instance:com.practice.testcases.TC_test_01@6093dd95] output={null}]]]>
               </value>
             </param>
           </params>
@@ -27,27 +27,6 @@
           </reporter-output>
         </test-method> <!-- screenShot -->
       </class> <!-- com.practice.testcases.TC_test_01 -->
-      <class name="com.practice.testcases.TC_test_02">
-        <test-method status="PASS" signature="tc()[pri:0, instance:com.practice.testcases.TC_test_02@4883b407]" name="tc" is-config="true" duration-ms="15326" started-at="2020-09-21T12:56:09Z" finished-at="2020-09-21T12:56:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc -->
-        <test-method status="PASS" signature="profuct_flow()[pri:0, instance:com.practice.testcases.TC_test_02@4883b407]" name="profuct_flow" duration-ms="24200" started-at="2020-09-21T12:56:24Z" finished-at="2020-09-21T12:56:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- profuct_flow -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.practice.testcases.TC_test_02@4883b407]" name="screenShot" is-config="true" duration-ms="845" started-at="2020-09-21T12:56:48Z" finished-at="2020-09-21T12:56:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=profuct_flow status=SUCCESS method=TC_test_02.profuct_flow()[pri:0, instance:com.practice.testcases.TC_test_02@4883b407] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-      </class> <!-- com.practice.testcases.TC_test_02 -->
-    </test> <!-- User Registration -->
-  </suite> <!-- Testing project -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

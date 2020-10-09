@@ -140,3 +140,23 @@
 2020-09-22 13:00:51,648 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
 2020-09-22 13:01:00,203 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
 2020-09-22 13:01:04,364 - com.practice.testcases.TC_test_02 -INFO - Click on "Buy Now" button
+2020-10-04 15:57:55,341 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-10-04 15:58:54,269 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2020-10-04 15:58:56,736 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2020-10-04 15:58:58,023 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2020-10-04 15:58:59,404 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2020-10-04 15:58:59,555 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2020-10-04 15:58:59,615 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2020-10-04 15:58:59,768 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2020-10-04 15:58:59,885 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2020-10-04 15:58:59,997 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2020-10-04 16:04:30,053 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-10-04 16:05:23,202 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2020-10-04 16:05:25,159 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2020-10-04 16:05:26,470 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2020-10-04 16:05:27,349 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2020-10-04 16:05:27,512 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2020-10-04 16:05:27,572 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2020-10-04 16:05:27,723 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2020-10-04 16:05:27,841 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2020-10-04 16:05:27,952 - com.practice.testcases.TC_test_01 -INFO - Password is entered
