@@ -21,6 +21,8 @@ public class TC_test_02 extends BaseClass {
 		//Initialization of helper classes		
 				Actions act=new Actions(driver);
 				
+				logger.info("*********Test Case 'TC_test_02' is started***********");
+				
 		//1. Click on "Computer" button		
 				homepageObj.computer_button().click();
 				logger.info("Clicked on \"Computer\" button");
@@ -42,7 +44,7 @@ public class TC_test_02 extends BaseClass {
 				logger.info("Click on \"Buy Now\" button");
 				
 		
-	   
+				logger.info("\n");
 			
 	}
 

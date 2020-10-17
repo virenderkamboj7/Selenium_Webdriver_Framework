@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 import com.google.common.io.Files;
 import com.practice.utilities.ReadConfig;
@@ -40,11 +41,9 @@ public class BaseClass {
 	public static DateTimeFormatter dtf; //Date time formater
 	public static LocalDateTime now; //Get local time
 	
+	
 	public void setup(String br) {
-		/*logger=Logger.getLogger(getClass());
-		BasicConfigurator.configure();
-		PropertyConfigurator.configure("log4j.properties");*/
-		
+
 				if(br.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",chromedriverpath);
 			driver=new ChromeDriver();
@@ -66,14 +65,15 @@ public class BaseClass {
 		driver.quit();	
 	}
 	
+	@Parameters("brr")
 	@BeforeClass
-	public void tc() {
+	public void tc(String brr) {
 		//logger=Logger.getLogger("BaseClass");
 		logger=Logger.getLogger(getClass());
 		BasicConfigurator.configure();
 		PropertyConfigurator.configure("log4j.properties");
 		BaseClass br=new BaseClass();
-		br.setup("chrome");
+		br.setup(brr);
 		driver.get(baseURL);
 		logger.info("URL Opned");	
 	}

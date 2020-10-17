@@ -1,6 +1,7 @@
 package com.practice.testcases;
 
 import java.io.IOException;
+import java.util.Collections;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
@@ -29,6 +30,8 @@ public class TC_test_01 extends BaseClass {
 		
 		
 		String UserDataExcelPath= "./src\\test\\java\\com\\practice\\testData\\UserData.xlsx";  //Excel path
+		
+		logger.info("*********Test Case 'TC_test_01' is started***********");
 		
 	//1. Click on Navigation icon	
 		homepageObj.nav_icon().click();
@@ -68,7 +71,7 @@ public class TC_test_01 extends BaseClass {
 		homepageObj.password_field().sendKeys(XLUtils.getCellData(UserDataExcelPath, "ValidData", 4,1 ));
 		logger.info("Password is entered");
 		
-		         
+		logger.info("\n");
 	}
 	
 }

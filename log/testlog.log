@@ -160,3 +160,133 @@
 2020-10-04 16:05:27,723 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
 2020-10-04 16:05:27,841 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
 2020-10-04 16:05:27,952 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2020-10-09 18:20:05,606 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-10-09 18:20:17,012 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2020-10-09 18:20:19,317 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2020-10-09 18:20:20,464 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2020-10-09 18:20:23,675 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2020-10-09 18:20:23,984 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2020-10-09 18:20:24,178 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2020-10-09 18:20:24,653 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2020-10-09 18:20:24,968 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2020-10-09 18:20:25,266 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2020-10-09 18:20:44,192 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2020-10-09 18:20:59,824 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Computer" button
+2020-10-09 18:21:00,144 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2020-10-09 18:21:04,619 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2020-10-09 18:21:16,524 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2020-10-09 18:21:19,948 - com.practice.testcases.TC_test_02 -INFO - Click on "Buy Now" button
+2020-10-09 18:23:43,799 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2020-10-09 18:23:47,712 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2020-10-09 18:24:02,431 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Computer" button
+2020-10-09 18:24:02,757 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2020-10-09 18:24:07,246 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2020-10-09 18:25:31,253 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2020-10-09 18:25:34,617 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2020-10-09 18:25:54,115 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Computer" button
+2020-10-09 18:25:54,421 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2020-10-09 18:26:00,612 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2020-10-09 21:58:07,096 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2020-10-11 12:31:10,508 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-10-11 12:31:15,479 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-10-11 12:31:36,547 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Computer" button
+2020-10-11 12:31:37,186 - com.practice.testcases.TC_test_01 -INFO - Hover over "Cameras" button
+2020-10-11 12:31:42,903 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Nikon" button
+2020-10-11 12:51:40,633 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-10-11 12:51:52,823 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2020-10-11 12:51:56,209 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2020-10-11 12:51:57,427 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2020-10-11 12:52:04,657 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2020-10-11 12:52:05,047 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2020-10-11 12:52:05,331 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2020-10-11 12:52:05,994 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2020-10-11 12:52:06,536 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2020-10-11 12:52:06,893 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2020-10-11 12:52:29,657 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2020-10-11 12:52:43,500 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Computer" button
+2020-10-11 12:52:43,850 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2020-10-11 12:52:49,371 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2020-10-11 12:52:59,617 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2020-10-11 12:53:03,595 - com.practice.testcases.TC_test_02 -INFO - Click on "Buy Now" button
+2020-10-11 12:55:40,086 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-10-11 12:56:02,476 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2020-10-11 12:56:04,963 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2020-10-11 12:56:06,028 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2020-10-11 12:56:11,072 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2020-10-11 12:56:11,582 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2020-10-11 12:56:11,835 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2020-10-11 12:56:14,379 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2020-10-11 12:56:14,772 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2020-10-11 12:56:15,074 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2020-10-11 12:56:37,813 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2020-10-11 12:56:55,472 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Computer" button
+2020-10-11 12:56:55,893 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2020-10-11 12:57:00,792 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2020-10-11 12:57:10,453 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2020-10-11 12:57:15,400 - com.practice.testcases.TC_test_02 -INFO - Click on "Buy Now" button
+2020-10-11 12:59:41,739 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-10-11 12:59:41,876 - com.practice.testcases.TC_test_01 -INFO - ***************************Test Case 'TC_test_01' is started********************************
+2020-10-11 12:59:53,976 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2020-10-11 12:59:56,322 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2020-10-11 12:59:57,302 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2020-10-11 12:59:59,268 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2020-10-11 12:59:59,616 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2020-10-11 12:59:59,834 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2020-10-11 13:00:00,469 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2020-10-11 13:00:00,778 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2020-10-11 13:00:01,111 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2020-10-11 13:00:01,111 - com.practice.testcases.TC_test_01 -INFO - 
+
+2020-10-11 13:00:24,250 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2020-10-11 13:00:24,280 - com.practice.testcases.TC_test_02 -INFO - ***************************Test Case 'TC_test_01' is started********************************
+2020-10-11 13:00:46,397 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Computer" button
+2020-10-11 13:00:46,793 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2020-10-11 13:00:52,701 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2020-10-11 13:01:01,546 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2020-10-11 13:01:05,972 - com.practice.testcases.TC_test_02 -INFO - Click on "Buy Now" button
+2020-10-11 13:01:05,974 - com.practice.testcases.TC_test_02 -INFO - 
+
+2020-10-11 13:02:53,336 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-10-11 13:02:53,512 - com.practice.testcases.TC_test_01 -INFO - **************Test Case 'TC_test_01' is started****************
+2020-10-11 13:03:04,800 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2020-10-11 13:03:06,802 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2020-10-11 13:03:08,678 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2020-10-11 13:03:11,114 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2020-10-11 13:03:11,628 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2020-10-11 13:03:11,768 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2020-10-11 13:03:12,290 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2020-10-11 13:03:12,589 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2020-10-11 13:03:12,928 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2020-10-11 13:03:12,928 - com.practice.testcases.TC_test_01 -INFO - 
+
+2020-10-11 13:03:32,936 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2020-10-11 13:03:32,959 - com.practice.testcases.TC_test_02 -INFO - ***************************Test Case 'TC_test_01' is started********************************
+2020-10-11 13:03:37,872 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Computer" button
+2020-10-11 13:03:38,551 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2020-10-11 13:03:42,940 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2020-10-11 13:03:51,530 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2020-10-11 13:03:55,223 - com.practice.testcases.TC_test_02 -INFO - Click on "Buy Now" button
+2020-10-11 13:03:55,224 - com.practice.testcases.TC_test_02 -INFO - 
+
+2020-10-11 13:05:59,751 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-10-11 13:05:59,924 - com.practice.testcases.TC_test_01 -INFO - **************Test Case 'TC_test_01' is started****************
+2020-10-11 13:06:11,948 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2020-10-11 13:06:15,314 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2020-10-11 13:06:17,563 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2020-10-11 13:06:19,897 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2020-10-11 13:06:20,251 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2020-10-11 13:06:20,392 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2020-10-11 13:06:20,797 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2020-10-11 13:06:21,109 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2020-10-11 13:06:21,426 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2020-10-11 13:06:21,426 - com.practice.testcases.TC_test_01 -INFO - 
+
+2020-10-11 13:06:42,637 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2020-10-11 13:06:42,688 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2020-10-11 13:06:55,321 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Computer" button
+2020-10-11 13:06:55,570 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2020-10-11 13:07:08,322 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2020-10-11 13:07:18,261 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2020-10-11 13:07:23,312 - com.practice.testcases.TC_test_02 -INFO - Click on "Buy Now" button
+2020-10-11 13:07:23,313 - com.practice.testcases.TC_test_02 -INFO - 
+
