@@ -290,3 +290,178 @@
 2020-10-11 13:07:23,312 - com.practice.testcases.TC_test_02 -INFO - Click on "Buy Now" button
 2020-10-11 13:07:23,313 - com.practice.testcases.TC_test_02 -INFO - 
 
+2020-10-21 12:03:43,152 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-10-21 12:03:43,363 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2020-10-21 12:03:55,464 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2020-10-21 12:03:59,320 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2020-10-21 12:04:00,341 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2020-10-21 12:04:03,001 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2020-10-21 12:04:03,304 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2020-10-21 12:04:03,456 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2020-10-21 12:04:03,986 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2020-10-21 12:04:04,305 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2020-10-21 12:04:04,625 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2020-10-21 12:04:04,625 - com.practice.testcases.TC_test_01 -INFO - 
+
+2020-10-21 12:04:22,655 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2020-10-21 12:04:22,831 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2020-10-21 12:04:30,837 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Computer" button
+2020-10-21 12:04:31,488 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2020-10-21 12:04:35,787 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2020-10-21 12:04:46,730 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2020-10-21 12:04:51,878 - com.practice.testcases.TC_test_02 -INFO - Click on "Buy Now" button
+2020-10-21 12:04:51,879 - com.practice.testcases.TC_test_02 -INFO - 
+
+2020-11-29 21:33:13,189 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-11-29 21:33:13,405 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2020-11-29 21:33:40,124 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2020-11-29 21:33:43,644 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2020-11-29 21:33:45,294 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2020-11-29 21:33:47,860 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2020-11-29 21:33:48,227 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2020-11-29 21:33:48,618 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2020-11-29 21:33:49,125 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2020-11-29 21:33:49,478 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2020-11-29 21:33:49,772 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2020-11-29 21:33:49,772 - com.practice.testcases.TC_test_01 -INFO - 
+
+2020-11-30 15:41:31,092 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-11-30 15:41:31,462 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2020-11-30 15:41:45,348 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2020-11-30 15:41:47,433 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2020-11-30 15:41:49,026 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2020-11-30 15:41:51,635 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2020-11-30 15:41:51,803 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2020-11-30 15:41:51,857 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2020-11-30 15:41:52,040 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2020-11-30 15:41:52,156 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2020-11-30 15:41:52,280 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2020-11-30 15:41:52,280 - com.practice.testcases.TC_test_01 -INFO - 
+
+2020-11-30 15:49:24,664 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2020-11-30 15:49:24,799 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2020-11-30 15:49:42,534 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2020-11-30 15:49:46,770 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2020-11-30 15:49:47,935 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2020-11-30 15:49:48,921 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2020-11-30 15:49:49,081 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2020-11-30 15:49:49,139 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2020-11-30 15:49:49,266 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2020-11-30 15:49:49,395 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2020-11-30 15:49:49,503 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2020-11-30 15:49:49,503 - com.practice.testcases.TC_test_01 -INFO - 
+
+2021-05-13 18:56:04,457 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2021-05-13 18:56:04,896 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2021-05-13 18:56:29,246 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2021-05-13 18:56:31,484 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2021-05-13 18:56:33,451 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2021-05-13 18:56:37,540 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2021-05-13 18:56:37,977 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2021-05-13 18:56:38,206 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2021-05-13 18:56:38,380 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2021-05-13 18:56:38,703 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2021-05-13 18:56:39,035 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2021-05-13 18:56:39,036 - com.practice.testcases.TC_test_01 -INFO - 
+
+2021-05-13 19:01:41,637 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-13 19:01:41,873 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 21:54:33,970 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2021-05-14 21:54:34,192 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2021-05-14 21:54:39,061 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2021-05-14 21:54:41,153 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2021-05-14 21:54:44,063 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2021-05-14 21:54:46,661 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2021-05-14 21:54:46,839 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2021-05-14 21:54:46,914 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2021-05-14 21:54:47,026 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2021-05-14 21:54:47,230 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2021-05-14 21:54:47,362 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2021-05-14 21:54:47,362 - com.practice.testcases.TC_test_01 -INFO - 
+
+2021-05-14 21:55:19,012 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-14 21:55:19,073 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 22:00:49,723 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-14 22:00:49,790 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 22:08:54,681 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-14 22:08:54,734 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 22:11:06,563 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-14 22:11:06,619 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 22:11:17,470 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Computer" button
+2021-05-14 22:11:17,613 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-14 22:11:20,936 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2021-05-14 22:11:24,335 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2021-05-14 22:13:20,744 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-14 22:13:20,800 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 22:13:25,941 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Computer" button
+2021-05-14 22:13:26,031 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-14 22:13:29,303 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2021-05-14 22:13:33,715 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2021-05-14 22:15:47,007 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-14 22:15:47,072 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 22:15:51,901 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Computer" button
+2021-05-14 22:15:52,034 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-14 22:15:54,835 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2021-05-14 22:15:57,890 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2021-05-14 22:19:03,988 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-14 22:19:04,129 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 22:19:19,768 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Electronics" button
+2021-05-14 22:19:20,573 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-14 22:19:24,449 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2021-05-14 22:19:31,456 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2021-05-14 22:23:36,749 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-14 22:23:36,953 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 22:23:46,527 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Electronics" button
+2021-05-14 22:23:47,167 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-14 22:23:50,515 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2021-05-14 22:23:57,883 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2021-05-14 22:25:49,941 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-14 22:25:50,088 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 22:26:00,908 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Electronics" button
+2021-05-14 22:26:01,117 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-14 22:26:05,318 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2021-05-14 22:26:12,457 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2021-05-14 22:28:11,118 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-14 22:28:11,249 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 22:28:19,965 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Electronics" button
+2021-05-14 22:28:20,233 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-14 22:28:23,585 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2021-05-14 22:28:30,689 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2021-05-14 22:30:37,203 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2021-05-14 22:30:37,368 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2021-05-14 22:30:42,034 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2021-05-14 22:30:44,582 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2021-05-14 22:30:45,649 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2021-05-14 22:30:48,211 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2021-05-14 22:30:48,968 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2021-05-14 22:30:49,132 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2021-05-14 22:30:49,534 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2021-05-14 22:30:50,019 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2021-05-14 22:30:50,391 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2021-05-14 22:30:50,391 - com.practice.testcases.TC_test_01 -INFO - 
+
+2021-05-14 22:31:09,225 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-14 22:31:09,258 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 22:31:23,153 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Electronics" button
+2021-05-14 22:31:23,823 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-14 22:31:27,092 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2021-05-14 22:31:33,719 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2021-05-14 22:32:57,905 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2021-05-14 22:32:58,068 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2021-05-14 22:33:03,119 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2021-05-14 22:33:04,851 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2021-05-14 22:33:05,713 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2021-05-14 22:33:08,200 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2021-05-14 22:33:08,540 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2021-05-14 22:33:08,666 - com.practice.testcases.TC_test_01 -INFO - Clicked in country code button
+2021-05-14 22:33:09,168 - com.practice.testcases.TC_test_01 -INFO - +91 is selected as country code
+2021-05-14 22:33:09,476 - com.practice.testcases.TC_test_01 -INFO - Mobile number is entered
+2021-05-14 22:33:09,741 - com.practice.testcases.TC_test_01 -INFO - Password is entered
+2021-05-14 22:33:09,741 - com.practice.testcases.TC_test_01 -INFO - 
+
+2021-05-14 22:33:24,247 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-14 22:33:24,277 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-14 22:33:34,477 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Electronics" button
+2021-05-14 22:33:35,165 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-14 22:33:38,698 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2021-05-14 22:33:47,953 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product

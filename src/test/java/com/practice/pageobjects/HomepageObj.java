@@ -96,7 +96,7 @@ public class HomepageObj extends BaseClass {
 			}
 			
 			//Coumpute button
-			@FindBy(xpath="//a[contains(text(),'Computers')]")
+			@FindBy(xpath="//a[contains(text(),'Electronics')]")
 			//@CacheLookup
 			WebElement computer_button;
 				

@@ -24,8 +24,11 @@ public class TC_test_02 extends BaseClass {
 				logger.info("*********Test Case 'TC_test_02' is started***********");
 				
 		//1. Click on "Computer" button		
+				
+//				wait.until(ExpectedConditions.elementToBeClickable(homepageObj.computer_button()));
+				act.moveToElement(homepageObj.computer_button()).click().build().perform();
 				homepageObj.computer_button().click();
-				logger.info("Clicked on \"Computer\" button");
+				logger.info("Clicked on \"Electronics\" button");
 		
 		//2. Hover over "Cameras" button		
 				act.moveToElement(categories.cameras_button()).build().perform();

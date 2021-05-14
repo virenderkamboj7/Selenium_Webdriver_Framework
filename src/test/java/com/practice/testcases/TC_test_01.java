@@ -1,7 +1,6 @@
 package com.practice.testcases;
 
 import java.io.IOException;
-import java.util.Collections;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
@@ -27,7 +26,6 @@ public class TC_test_01 extends BaseClass {
 		
 	//	Initialization of helper classes
 		JavascriptExecutor js = (JavascriptExecutor) driver;  //Page scroll
-		
 		
 		String UserDataExcelPath= "./src\\test\\java\\com\\practice\\testData\\UserData.xlsx";  //Excel path
 		
