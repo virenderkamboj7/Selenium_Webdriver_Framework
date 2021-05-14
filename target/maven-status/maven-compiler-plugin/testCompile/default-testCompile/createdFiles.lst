@@ -3,6 +3,7 @@ com\practice\testcases\BaseClass.class
 com\practice\pageobjects\Categories.class
 com\practice\testcases\TC_test_01.class
 com\practice\pageobjects\HomepageObj.class
+com\practice\testcases\Testcase.class
 com\practice\utilities\Reporting.class
 com\practice\utilities\XLUtils.class
 com\practice\testcases\TC_test_02.class

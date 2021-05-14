@@ -48,6 +48,7 @@ public class TC_test_02 extends BaseClass {
 				
 		
 				logger.info("\n");
+				logger.info("*********Test Case 'TC_test_02' is end***********");
 			
 	}
 

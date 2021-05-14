@@ -70,6 +70,7 @@ public class TC_test_01 extends BaseClass {
 		logger.info("Password is entered");
 		
 		logger.info("\n");
+		logger.info("*********Test Case 'TC_test_02' is end***********");
 	}
 	
 }
