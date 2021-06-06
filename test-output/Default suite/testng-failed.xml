@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.practice.testcases.TC_test_02">
+      <class name="com.practice.testcases.TC_test_01">
         <methods>
-          <include name="profuct_flow"/>
-          <include name="screenShot"/>
           <include name="tc"/>
+          <include name="signin"/>
         </methods>
-      </class> <!-- com.practice.testcases.TC_test_02 -->
+      </class> <!-- com.practice.testcases.TC_test_01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

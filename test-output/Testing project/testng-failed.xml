@@ -7,10 +7,15 @@
       <class name="com.practice.testcases.TC_test_02">
         <methods>
           <include name="profuct_flow"/>
-          <include name="screenShot"/>
           <include name="tc"/>
         </methods>
       </class> <!-- com.practice.testcases.TC_test_02 -->
+      <class name="com.practice.testcases.TC_test_01">
+        <methods>
+          <include name="tc"/>
+          <include name="signin"/>
+        </methods>
+      </class> <!-- com.practice.testcases.TC_test_01 -->
     </classes>
   </test> <!-- User Registration(failed) -->
 </suite> <!-- Failed suite [Testing project] -->

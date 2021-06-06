@@ -3,7 +3,7 @@
 
 <suite name = "Testing project" parallel="methods" thread-count="1">
 <test name = "User Registration">
-<parameter name="brr" value="chrome"></parameter>
+<!--   <parameter name="brr" value="chrome"></parameter> -->
 <classes>
 <class name = "com.practice.testcases.TC_test_01"/>
 <class name = "com.practice.testcases.TC_test_02"/>

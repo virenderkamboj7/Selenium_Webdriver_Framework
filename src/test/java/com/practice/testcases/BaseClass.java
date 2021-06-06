@@ -51,7 +51,7 @@ public class BaseClass {
 		}
 
 		else if (br.equals("firefox")) {
-			System.setProperty("webdriver.chrome.driver", firefoxpath);
+			System.setProperty("webdriver.gecko.driver", firefoxpath);
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 			wait = new WebDriverWait(driver, 20);
@@ -63,15 +63,16 @@ public class BaseClass {
 		driver.quit();
 	}
 
-	@Parameters("brr")  // 
+//	@Parameters("brr")  // 
 	@BeforeClass
-	public void tc(String brr) {
+//	public void tc(String brr) {
+		public void tc() {
 		// logger=Logger.getLogger("BaseClass");
 		logger = Logger.getLogger(getClass());
 		BasicConfigurator.configure();
 		PropertyConfigurator.configure("log4j.properties");
 		BaseClass br = new BaseClass();
-		br.setup(brr);
+		br.setup("chrome");
 		driver.get(baseURL);
 		logger.info("URL Opned");
 	}
@@ -85,7 +86,7 @@ public class BaseClass {
 //		C:\Users\orange\eclipse-workspace\Selenium_Test_Framework\Screenshots
 	}
 
-	@AfterMethod
+//	@AfterMethod
 	public void screenShot(ITestResult result) {
 
 		if (ITestResult.FAILURE == result.getStatus()) {

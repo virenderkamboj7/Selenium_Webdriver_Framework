@@ -484,3 +484,46 @@
 2021-05-14 22:44:42,117 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
 2021-05-14 22:44:45,596 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
 2021-05-14 22:44:51,752 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2021-05-21 13:27:36,230 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-21 13:27:39,748 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-21 13:30:30,203 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Electronics" button
+2021-05-21 13:30:35,281 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-21 13:30:40,844 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2021-05-21 13:30:51,484 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2021-05-21 13:31:46,314 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-21 13:31:46,373 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-21 13:32:04,932 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Electronics" button
+2021-05-21 13:32:04,999 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-21 17:42:29,821 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-21 17:42:30,143 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-21 17:42:36,424 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Electronics" button
+2021-05-21 17:42:37,013 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-21 17:42:39,865 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2021-05-21 17:42:45,287 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2021-05-21 17:42:48,227 - com.practice.testcases.TC_test_02 -INFO - Click on "Buy Now" button
+2021-05-21 17:42:48,228 - com.practice.testcases.TC_test_02 -INFO - 
+
+2021-05-21 17:42:48,229 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is end***********
+2021-05-21 17:44:28,016 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-05-21 17:44:28,138 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-05-21 17:44:33,412 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Electronics" button
+2021-05-21 17:44:33,960 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-05-21 17:44:36,636 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
+2021-05-21 17:44:42,788 - com.practice.testcases.TC_test_02 -INFO - Clicked on first product
+2021-05-21 17:44:45,589 - com.practice.testcases.TC_test_02 -INFO - Click on "Buy Now" button
+2021-05-21 17:44:45,591 - com.practice.testcases.TC_test_02 -INFO - 
+
+2021-05-21 17:44:45,592 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is end***********
+2021-06-06 20:36:42,132 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2021-06-06 20:36:42,263 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2021-06-06 20:36:58,628 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2021-06-06 22:59:12,547 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2021-06-06 22:59:12,659 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2021-06-06 22:59:23,853 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2021-06-06 22:59:25,859 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2021-06-06 22:59:31,123 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2021-06-06 23:00:15,759 - com.practice.testcases.TC_test_02 -INFO - URL Opned
+2021-06-06 23:00:15,801 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is started***********
+2021-06-06 23:00:42,985 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Electronics" button
+2021-06-06 23:00:43,942 - com.practice.testcases.TC_test_02 -INFO - Hover over "Cameras" button
+2021-06-06 23:00:53,709 - com.practice.testcases.TC_test_02 -INFO - Clicked on "Nikon" button
