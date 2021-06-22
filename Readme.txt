@@ -22,10 +22,10 @@
  1. Eclipse should be installed
  2. testng should be installed in eclipse
  4. Now take the pull of framework
- 5. Right click on testng.xmp file and run as TestNGSuite
+ 5. Right click on testng.xml file and run as TestNGSuite
  
- You can run the using cmd also
- 1. Download maven from "https://maven.apache.org/download.cgi" based on you operating system
+ You can run the project using cmd also:
+ 1. Download maven from "https://maven.apache.org/download.cgi" based on your operating system
  2. Set up environment variables
  3. Run cmd and cd the project home directory where you have downloaded 
  4. Execute the command: "mvn clean test -DtestngFile=testng.xml"    (This command will run the testng.xml file)
@@ -35,4 +35,4 @@
  
  
  
- **Please feel to write me "virenderkambojv22@gmail.com" in case on any query or clarification.
+ **Please feel to write me "virender.kamboj@yahoo.com" in case on any query or clarification.
