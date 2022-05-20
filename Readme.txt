@@ -5,16 +5,11 @@
  				2. Order journey flow
  	
  	This project include 4 packages under "src/test/java" based on the different categories, which are explained below:
- 	
  	1. com.practice.pageobject: This package includes the classes where page elements are stored in terms of xpaths, 
- 	which are being utilized in actual test cases file of "com.practice.testcases".
- 	
+ 	  which are being utilized in actual test cases file of "com.practice.testcases".
  	2. com.practice.testcases: "BaseClass" includes all the properties which are common for all the test cases. 
- 	So this class is directly inherited in all the test cases classes.
- 	
- 	
+ 	  So this class is directly inherited in all the test cases classes.
  	3. com.practice.testData: This package contains the files which have stores the test data to be utilized in test cases.
- 	
  	4. com.practice.utilities: This package includes all the helper classes to read the data or reporting configurations. 
  	
  	
@@ -25,10 +20,11 @@
  5. Right click on testng.xml file and run as TestNGSuite
  
  You can run the project using cmd also:
- 1. Download maven from "https://maven.apache.org/download.cgi" based on your operating system
- 2. Set up environment variables
- 3. Run cmd and cd the project home directory where you have downloaded 
- 4. Execute the command: "mvn clean test -DtestngFile=testng.xml"    (This command will run the testng.xml file)
+ 1. Install java 11 and set up environment variables
+ 2. Download maven from "https://maven.apache.org/download.cgi" based on your operating system
+ 3. Set up environment variables
+ 4. Run cmd and cd the project home directory where you have downloaded 
+ 5. Execute the command: "mvn clean test -DtestngFile=testng.xml"    (This command will run the testng.xml file)
  	Hence your test can be run without eclipse, which helps to schedule the build using Jenkins.
  	bat file file the there under project home directory. double click on the "run.bat" file. It will execute the testng.xml file.
  5. Logger will tell the steps we followed in every test cases.
