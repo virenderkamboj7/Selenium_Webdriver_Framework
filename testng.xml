@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name = "Testing project" parallel="methods" thread-count="1">
-<test name = "User Registration">
-<!--   <parameter name="brr" value="chrome"></parameter> -->
-<classes>
-<class name = "com.practice.testcases.TC_test_01"/>
-<class name = "com.practice.testcases.TC_test_02"/>
+<suite name="Testing project" parallel="methods" thread-count="1">
+	<test name="User Registration">
+		<parameter name="brr" value="chrome"></parameter>
+		<classes>
+			<class name="com.practice.testcases.TC_test_01" />
+			<class name="com.practice.testcases.TC_test_02" />
 
-</classes>
-</test>
+		</classes>
+	</test>
 </suite>

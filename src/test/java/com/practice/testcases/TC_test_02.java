@@ -44,7 +44,7 @@ public class TC_test_02 extends BaseClass {
 				
 		//5. Click on "Buy Now" button
 				categories.Buy_Now_button().click();
-				logger.info("Click on \"Buy Now\" button");
+				logger.info("Clicked on \"Buy Now\" button");
 				
 		
 				logger.info("\n");

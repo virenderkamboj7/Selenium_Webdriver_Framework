@@ -2,17 +2,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="1" parallel="methods" name="Failed suite [Testing project]" guice-stage="DEVELOPMENT">
   <test thread-count="1" parallel="methods" name="User Registration(failed)">
-    <parameter name="brr" value="chrome"/>
+    <parameter name="brr" value="firefox"/>
     <classes>
-      <class name="com.practice.testcases.TC_test_02">
-        <methods>
-          <include name="profuct_flow"/>
-          <include name="tc"/>
-        </methods>
-      </class> <!-- com.practice.testcases.TC_test_02 -->
       <class name="com.practice.testcases.TC_test_01">
         <methods>
           <include name="tc"/>
+          <include name="terDown"/>
           <include name="signin"/>
         </methods>
       </class> <!-- com.practice.testcases.TC_test_01 -->

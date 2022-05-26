@@ -2,6 +2,8 @@ package com.practice.testcases;
 
 import java.io.IOException;
 
+import javax.lang.model.element.Element;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -39,7 +41,8 @@ public class TC_test_01 extends BaseClass {
 		homepageObj.signin().click();
 		logger.info("Clicked on Sign in button");
 		
-	//3. Click on "Create an Account" button	
+	//3. Click on "Create an Account" button
+		wait.until(ExpectedConditions.elementToBeClickable(homepageObj.createAccountSubmit()));
 		homepageObj.createAccountSubmit().click();
 		logger.info("Clicked on \"Create an Account\" button");
 	
