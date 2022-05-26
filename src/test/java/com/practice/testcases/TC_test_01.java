@@ -2,8 +2,6 @@ package com.practice.testcases;
 
 import java.io.IOException;
 
-import javax.lang.model.element.Element;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
