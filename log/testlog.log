@@ -892,3 +892,17 @@
 2022-05-27 06:32:33,998 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
 2022-05-27 06:32:35,036 - com.practice.testcases.TC_test_01 -INFO - User name is entered
 2022-05-27 06:32:35,205 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2022-05-27 06:43:43,030 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2022-05-27 06:43:43,103 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2022-05-27 06:43:45,392 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2022-05-27 06:43:46,029 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2022-05-27 06:43:47,085 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2022-05-27 06:43:48,992 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2022-05-27 06:43:49,173 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
+2022-05-27 06:44:36,609 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2022-05-27 06:44:36,661 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2022-05-27 06:44:38,575 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2022-05-27 06:44:39,141 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2022-05-27 06:44:40,908 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2022-05-27 06:44:41,975 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2022-05-27 06:44:42,123 - com.practice.testcases.TC_test_01 -INFO - Email id is entered

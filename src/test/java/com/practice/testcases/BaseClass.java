@@ -64,16 +64,16 @@ public class BaseClass {
 		driver.quit();
 	}
 
-	@Parameters("brr")  // 
+//	@Parameters("brr")  // 
 	@BeforeClass
-	public void tc(String brr) {
-//		public void tc() {
+//	public void tc(String brr) {
+		public void tc() {
 		// logger=Logger.getLogger("BaseClass");
 		logger = Logger.getLogger(getClass());
 		BasicConfigurator.configure();
 		PropertyConfigurator.configure("log4j.properties");
 		BaseClass br = new BaseClass();
-		br.setup(brr);
+		br.setup("chrome");
 		driver.get(baseURL);
 		logger.info("URL Opned");
 	}
