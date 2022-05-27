@@ -27,12 +27,12 @@ public class ReadConfig {
 	}
 
 	public String chromedriver() {
-		String cdriver = System.getProperty("user.dir") + "\\" + pro.getProperty("chromepath");
+		String cdriver = System.getProperty("user.dir") + pro.getProperty("chromepath");
 		return cdriver;
 	}
 
 	public String firefoxdriver() {
-		String fdriver = System.getProperty("user.dir") + "\\" + pro.getProperty("firefoxpath");
+		String fdriver = System.getProperty("user.dir") + pro.getProperty("firefoxpath");
 		return fdriver;
 	}
 

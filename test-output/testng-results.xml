@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-27T06:44:30 IST" name="Testing project" finished-at="2022-05-27T06:44:42 IST" duration-ms="12041">
+  <suite started-at="2022-05-27T06:52:04 IST" name="Testing project" finished-at="2022-05-27T06:52:40 IST" duration-ms="36092">
     <groups>
     </groups>
-    <test started-at="2022-05-27T06:44:30 IST" name="User Registration" finished-at="2022-05-27T06:44:42 IST" duration-ms="12041">
+    <test started-at="2022-05-27T06:52:04 IST" name="User Registration" finished-at="2022-05-27T06:52:40 IST" duration-ms="36092">
       <class name="com.practice.testcases.TC_test_01">
-        <test-method is-config="true" signature="tc()[pri:0, instance:com.practice.testcases.TC_test_01@4d0f2471]" started-at="2022-05-27T06:44:30 IST" name="tc" finished-at="2022-05-27T06:44:36 IST" duration-ms="5751" status="PASS">
+        <test-method is-config="true" signature="tc(java.lang.String)[pri:0, instance:com.practice.testcases.TC_test_01@f736069]" started-at="2022-05-27T06:52:04 IST" name="tc" finished-at="2022-05-27T06:52:10 IST" duration-ms="5974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc -->
-        <test-method signature="signin()[pri:0, instance:com.practice.testcases.TC_test_01@4d0f2471]" started-at="2022-05-27T06:44:36 IST" name="signin" finished-at="2022-05-27T06:44:42 IST" duration-ms="5557" status="FAIL">
+        <test-method signature="signin()[pri:0, instance:com.practice.testcases.TC_test_01@f736069]" started-at="2022-05-27T06:52:10 IST" name="signin" finished-at="2022-05-27T06:52:16 IST" duration-ms="5886" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -19,8 +26,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ORANGELT0253', ip: '192.168.43.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\orange\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2c509e3a3107acc0baa132761a05ce8c]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\orange\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fc47f614eecb1c293be1589919d6100]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -28,8 +35,8 @@ Session ID: 2c509e3a3107acc0baa132761a05ce8c]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ORANGELT0253', ip: '192.168.43.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\orange\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2c509e3a3107acc0baa132761a05ce8c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\orange\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fc47f614eecb1c293be1589919d6100
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -47,7 +54,7 @@ at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAc
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
 at com.practice.testcases.TC_test_01.signin(TC_test_01.java:58)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -70,11 +77,32 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method is-config="true" signature="terDown()[pri:0, instance:com.practice.testcases.TC_test_01@4d0f2471]" started-at="2022-05-27T06:44:42 IST" name="terDown" finished-at="2022-05-27T06:44:42 IST" duration-ms="687" status="PASS">
+        <test-method is-config="true" signature="terDown()[pri:0, instance:com.practice.testcases.TC_test_01@f736069]" started-at="2022-05-27T06:52:16 IST" name="terDown" finished-at="2022-05-27T06:52:17 IST" duration-ms="686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terDown -->
       </class> <!-- com.practice.testcases.TC_test_01 -->
+      <class name="com.practice.testcases.TC_test_02">
+        <test-method is-config="true" signature="tc(java.lang.String)[pri:0, instance:com.practice.testcases.TC_test_02@169e6180]" started-at="2022-05-27T06:52:17 IST" name="tc" finished-at="2022-05-27T06:52:22 IST" duration-ms="5405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc -->
+        <test-method signature="profuct_flow()[pri:0, instance:com.practice.testcases.TC_test_02@169e6180]" started-at="2022-05-27T06:52:22 IST" name="profuct_flow" finished-at="2022-05-27T06:52:40 IST" duration-ms="17385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profuct_flow -->
+        <test-method is-config="true" signature="terDown()[pri:0, instance:com.practice.testcases.TC_test_02@169e6180]" started-at="2022-05-27T06:52:40 IST" name="terDown" finished-at="2022-05-27T06:52:40 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terDown -->
+      </class> <!-- com.practice.testcases.TC_test_02 -->
     </test> <!-- User Registration -->
   </suite> <!-- Testing project -->
 </testng-results>
