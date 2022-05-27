@@ -885,3 +885,10 @@
 2022-05-26 22:14:03,113 - com.practice.testcases.TC_test_02 -INFO - 
 
 2022-05-26 22:14:03,113 - com.practice.testcases.TC_test_02 -INFO - *********Test Case 'TC_test_02' is end***********
+2022-05-27 06:32:30,109 - com.practice.testcases.TC_test_01 -INFO - URL Opned
+2022-05-27 06:32:30,180 - com.practice.testcases.TC_test_01 -INFO - *********Test Case 'TC_test_01' is started***********
+2022-05-27 06:32:32,069 - com.practice.testcases.TC_test_01 -INFO - Clicked on Navigation icon
+2022-05-27 06:32:32,553 - com.practice.testcases.TC_test_01 -INFO - Clicked on Sign in button
+2022-05-27 06:32:33,998 - com.practice.testcases.TC_test_01 -INFO - Clicked on "Create an Account" button
+2022-05-27 06:32:35,036 - com.practice.testcases.TC_test_01 -INFO - User name is entered
+2022-05-27 06:32:35,205 - com.practice.testcases.TC_test_01 -INFO - Email id is entered
