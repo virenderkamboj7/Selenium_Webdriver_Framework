@@ -1,1 +1,55 @@
+# --- Compiled Java classes ---
+*.class
 
+# --- Build tool artifacts ---
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+release.properties
+
+# Gradle
+build/
+.gradle/
+
+# --- Selenium/TestNG/JUnit Reports ---
+test-output/
+temp-testng.xml
+report/
+**/site/
+**/screenshots/
+
+# --- Logging files (Log4j 2) ---
+*.log
+logs/
+log
+
+# --- IDE Settings ---
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata/
+bin/
+
+# VS Code
+.vscode/
+
+# --- Drivers and OS-specific files ---
+# Usually, you should not commit local binary drivers
+chromedriver.exe
+geckodriver.exe
+IEDriverServer.exe
+chromedriver
+geckodriver
+
+# OS files
+.DS_Store
+Thumbs.db
