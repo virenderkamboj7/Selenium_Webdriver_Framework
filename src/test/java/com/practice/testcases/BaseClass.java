@@ -5,9 +5,9 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -16,9 +16,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+
+import java.time.Duration;
 
 import com.google.common.io.Files;
 import com.practice.utilities.ReadConfig;
@@ -45,17 +46,17 @@ public class BaseClass {
 	public void setup(String br) {
 
 		if (br.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", chromedriverpath);
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
-			wait = new WebDriverWait(driver, 20);
+			wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		}
 
 		else if (br.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", firefoxpath);
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
-			wait = new WebDriverWait(driver, 20);
+			wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		}
 	}
 
@@ -64,18 +65,16 @@ public class BaseClass {
 		driver.quit();
 	}
 
-	@Parameters("brr")  // 
+	@Parameters("brr") 
 	@BeforeClass
 	public void tc(String brr) {
-//		public void tc() {
-		// logger=Logger.getLogger("BaseClass");
-		logger = Logger.getLogger(getClass());
-		BasicConfigurator.configure();
-		PropertyConfigurator.configure("log4j.properties");
+	// public void tc() {
+		logger = LogManager.getLogger(getClass());
+		new File(System.getProperty("user.dir"), "log").mkdirs();
 		BaseClass br = new BaseClass();
-		br.setup(brr);
+		br.setup("chrome");
 		driver.get(baseURL);
-		logger.info("URL Opned");
+		logger.info("URL Opened");
 	}
 
 	public void captureScreen(WebDriver driver, String tname) throws IOException {
