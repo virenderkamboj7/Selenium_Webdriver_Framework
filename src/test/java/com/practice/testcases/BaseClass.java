@@ -68,7 +68,7 @@ public class BaseClass {
 	@Parameters("brr") 
 	@BeforeClass
 	public void tc(String brr) {
-	// public void tc() {
+	public void tc() {
 		logger = LogManager.getLogger(getClass());
 		new File(System.getProperty("user.dir"), "log").mkdirs();
 		BaseClass br = new BaseClass();

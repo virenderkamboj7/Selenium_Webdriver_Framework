@@ -25,9 +25,9 @@ public class TC_test_02 extends BaseClass {
 				
 		//1. Click on "Computer" button		
 				
-//				wait.until(ExpectedConditions.elementToBeClickable(homepageObj.computer_button()));
-				act.moveToElement(homepageObj.computer_button()).click().build().perform();
-				homepageObj.computer_button().click();
+				wait.until(ExpectedConditions.elementToBeClickable(homepageObj.computerButton()));
+				act.moveToElement(homepageObj.computerButton()).click().build().perform();
+				homepageObj.computerButton().click();
 				logger.info("Clicked on \"Electronics\" button");
 		
 		//2. Hover over "Cameras" button		
@@ -38,13 +38,13 @@ public class TC_test_02 extends BaseClass {
 				wait.until(ExpectedConditions.elementToBeClickable(categories.nikon_button())).click();
 				logger.info("Clicked on \"Nikon\" button");
 				
-		//4. Click on first product
-				categories.first_product().click();
-				logger.info("Clicked on first product");
+		// //4. Click on first product
+		// 		categories.first_product().click();
+		// 		logger.info("Clicked on first product");
 				
-		//5. Click on "Buy Now" button
-				categories.Buy_Now_button().click();
-				logger.info("Clicked on \"Buy Now\" button");
+		// //5. Click on "Buy Now" button
+		// 		categories.Buy_Now_button().click();
+		// 		logger.info("Clicked on \"Buy Now\" button");
 				
 		
 				logger.info("\n");

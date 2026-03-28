@@ -9,7 +9,7 @@ public class Categories extends BaseClass{
 
 	
 	//Cameras button
-	@FindBy(xpath="//div[@id='nav-subnav']//a[6]//span[1]")
+	@FindBy(xpath="//span[normalize-space()='Cameras']")
 	//@CacheLookup
 	WebElement cameras_button;
 		

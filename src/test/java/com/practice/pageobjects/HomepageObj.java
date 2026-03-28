@@ -11,7 +11,7 @@ public class HomepageObj extends BaseClass {
 			
 	
 			//Nav Icon
-			@FindBy(xpath="//i[@class='hm-icon nav-sprite']")
+			@FindBy(css="span[class='nav-line-2 ']")
 			//@CacheLookup
 			WebElement nav_icon;
 				
@@ -20,89 +20,56 @@ public class HomepageObj extends BaseClass {
 			}
 			
 			
-			//Sign In
-			@FindBy(id="hmenu-customer-name")
-			//@CacheLookup
-			WebElement signin;
-				
-			public WebElement signin() {
-			return signin;	
-			}
-			
-			//Create an account
-			@FindBy(id="createAccountSubmit")
-			//@CacheLookup
-			WebElement createAccountSubmit;
-				
-			public WebElement createAccountSubmit() {
-			return createAccountSubmit;	
-			}	
-			
-			// Name Field
-			@FindBy(id="ap_customer_name")
-			//@CacheLookup
-			WebElement customer_name_field;
-				
-			public WebElement customer_name_field() {
-			return customer_name_field;	
-			}
-			
-			//County Code buttom
-			@FindBy(xpath="//span[@class='a-button-text a-declarative']")
-			//@CacheLookup
-			WebElement country_code;
-				
-			public WebElement country_code() {
-			return country_code;	
-			}
-			
-			//Select Country code
-			@FindBy(id="auth-country-picker_92")
-			//@CacheLookup
-			WebElement country_code_select;
-				
-			public WebElement country_code_select() {
-			return country_code_select;	
-			}
-			
-			
-			//Mobile
-			@FindBy(id="ap_phone_number")
-			//@CacheLookup
-			WebElement mobile_field;
-				
-			public WebElement mobile_field() {
-			return mobile_field;	
-			}
-			
-			//Email
-			@FindBy(id="ap_email")
+			//email field
+			@FindBy(id="ap_email_login")
 			//@CacheLookup
 			WebElement email_field;
 				
-			public WebElement email_field() {
+			public WebElement emailField() {
 			return email_field;	
 			}
 			
-			
-			
-			//Password Field
+			//Cotinue button
+			@FindBy(css="input[type='submit']")
+			WebElement continue_button;
+
+			public WebElement continueButton() {
+			return continue_button;	
+			}
+
+			//Proceed to Create an Account button
+			@FindBy(css="input[type='submit']")
+			WebElement proceed_button;
+			public WebElement proceedButton(){
+				return this.proceed_button;
+			}
+
+			//Mobile number field
+			@FindBy(id="ap_phone_number")
+			WebElement mobile;
+			public WebElement mobile(){
+				return this.mobile;
+			}
+
+			//password field
 			@FindBy(id="ap_password")
-			//@CacheLookup
 			WebElement password_field;
-				
-			public WebElement password_field() {
+			public WebElement passwordField() {
 			return password_field;	
 			}
-			
-			//Coumpute button
-			@FindBy(xpath="//a[contains(text(),'Electronics')]")
-			//@CacheLookup
+
+			//User name field
+			@FindBy(id="ap_customer_name")
+			WebElement user_name;
+			public WebElement userName(){
+				return this.user_name;
+			}
+
+			//Computer button
+			@FindBy(xpath = "//a[normalize-space()='Computers']")
 			WebElement computer_button;
-				
-			public WebElement computer_button() {
-			return computer_button;	
-			}	
-			
+			public WebElement computerButton(){
+				return this.computer_button;
+			}
 					
 }
