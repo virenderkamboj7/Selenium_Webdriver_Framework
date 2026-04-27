@@ -13,11 +13,18 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 import java.time.Duration;
 
@@ -58,6 +65,32 @@ public class BaseClass {
 			driver.manage().window().maximize();
 			wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		}
+
+		else if(br.equals("hub_chrome")){
+			ChromeOptions options = new ChromeOptions();
+			URL gridUrl=null;
+			try {
+				gridUrl = new URL("http://localhost:4444/wd/hub");
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
+			driver = new RemoteWebDriver(gridUrl, options);
+			driver.manage().window().maximize();
+			wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		}
+
+		else if(br.equals("hub_firefox")){
+			FirefoxOptions options = new FirefoxOptions();
+			URL gridUrl=null;
+			try {
+				gridUrl = new URL("http://localhost:4444/wd/hub");
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
+			driver = new RemoteWebDriver(gridUrl, options);
+			driver.manage().window().maximize();
+			wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		}
 	}
 
 	 @AfterClass
@@ -68,11 +101,11 @@ public class BaseClass {
 	@Parameters("brr") 
 	@BeforeClass
 	public void tc(String brr) {
-	public void tc() {
+	// public void tc() {
 		logger = LogManager.getLogger(getClass());
 		new File(System.getProperty("user.dir"), "log").mkdirs();
 		BaseClass br = new BaseClass();
-		br.setup("chrome");
+		br.setup(brr);
 		driver.get(baseURL);
 		logger.info("URL Opened");
 	}
