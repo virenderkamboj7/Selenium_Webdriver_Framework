@@ -70,7 +70,7 @@ public class BaseClass {
 			ChromeOptions options = new ChromeOptions();
 			URL gridUrl=null;
 			try {
-				gridUrl = new URL("http://localhost:4444/wd/hub");
+				gridUrl = new URL("http://selenium-hub:4444/wd/hub");
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
@@ -83,7 +83,7 @@ public class BaseClass {
 			FirefoxOptions options = new FirefoxOptions();
 			URL gridUrl=null;
 			try {
-				gridUrl = new URL("http://localhost:4444/wd/hub");
+				gridUrl = new URL("http://selenium-hub:4444/wd/hub");
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
