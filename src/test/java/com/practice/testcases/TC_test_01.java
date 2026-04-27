@@ -16,7 +16,7 @@ public class TC_test_01 extends BaseClass {
 		
 	//Initialization of Page object classes	
 		HomepageObj homepageObj=PageFactory.initElements(driver, HomepageObj.class); //Page object of 'Homepage'
-		String UserDataExcelPath= "./src\\test\\java\\com\\practice\\testData\\UserData.xlsx";  //Excel path
+		String UserDataExcelPath= "./src/test/java/com/practice/testData/UserData.xlsx";  //Excel path
 		
 		logger.info("*********Test Case 'TC_test_01' is started***********");
 		
