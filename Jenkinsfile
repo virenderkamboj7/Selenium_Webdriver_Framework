@@ -44,7 +44,7 @@ pipeline {
             steps {
                 echo 'Running TestNG Suite on Selenium Grid...'
                 // Running the tests. The -DgridUrl dynamically passes the environment variable to your Java code.
-                sh "mvn test -DtestngFile=${testng} -DgridUrl=${SELENIUM_HUB_URL} -DgridUrl=${BROWSER}"
+                sh "mvn test -DtestngFile=${testng} -DgridUrl=${SELENIUM_HUB_URL} -Dbrr=${BROWSER}"
             }
         }
     }
