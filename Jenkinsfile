@@ -1,5 +1,10 @@
 pipeline {
     agent any
+
+    parameters {
+        choice(name: 'BROWSER', choices: ['chrome', 'firefox', 'edge'], description: 'Select the browser for test execution')
+        choice(name: 'testng', choices: ['testng.xml'], description: 'Select the testng xml file to execute test cases')
+    }
     
     environment {
         // The URL established using the Docker Compose network
@@ -39,7 +44,7 @@ pipeline {
             steps {
                 echo 'Running TestNG Suite on Selenium Grid...'
                 // Running the tests. The -DgridUrl dynamically passes the environment variable to your Java code.
-                sh "mvn test -DtestngFile=testng.xml -DgridUrl=${SELENIUM_HUB_URL}"
+                sh "mvn test -DtestngFile=${testng} -DgridUrl=${SELENIUM_HUB_URL} -DgridUrl=${BROWSER}"
             }
         }
     }
