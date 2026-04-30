@@ -26,14 +26,8 @@ public class ReadConfig {
 		return url;
 	}
 
-	public String chromedriver() {
-		String cdriver = System.getProperty("user.dir") + pro.getProperty("chromepath");
-		return cdriver;
-	}
-
-	public String firefoxdriver() {
-		String fdriver = System.getProperty("user.dir") + pro.getProperty("firefoxpath");
-		return fdriver;
+	public String getBrowser(){
+		return pro.getProperty("browser");
 	}
 
 	////////////////////////// User Information////////////////////////

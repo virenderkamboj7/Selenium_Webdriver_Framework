@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -18,16 +17,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import java.time.Duration;
-
 import com.google.common.io.Files;
 import com.practice.utilities.ReadConfig;
 
@@ -38,11 +32,10 @@ public class BaseClass {
 	// Properties file
 	ReadConfig readConfig = new ReadConfig(); // Object of properties file
 	public String baseURL = readConfig.baseURL(); // Base URL
-	public String chromedriverpath = readConfig.chromedriver(); // Chromepath
-	public String firefoxpath = readConfig.firefoxdriver(); // Firefox path
 	public String mobile = readConfig.mobile(); // Mobile Number
 	public String password = readConfig.password(); // Password
 	public String email = readConfig.email(); // Email
+	private String browser = readConfig.getBrowser();
 
 	public static WebDriverWait wait;
 
@@ -70,7 +63,7 @@ public class BaseClass {
 			ChromeOptions options = new ChromeOptions();
 			URL gridUrl=null;
 			try {
-				gridUrl = new URL("http://selenium-hub:4444/wd/hub");
+				gridUrl = new URL("http://localhost:4444/wd/hub");
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
@@ -83,7 +76,7 @@ public class BaseClass {
 			FirefoxOptions options = new FirefoxOptions();
 			URL gridUrl=null;
 			try {
-				gridUrl = new URL("http://selenium-hub:4444/wd/hub");
+				gridUrl = new URL("http://localhost:4444/wd/hub");
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
@@ -98,14 +91,22 @@ public class BaseClass {
 		driver.quit();
 	}
 
-	@Parameters("brr") 
+	// @Parameters("brr") 
 	@BeforeClass
-	public void tc(String brr) {
-	// public void tc() {
+	// public void tc(String brr) {
+	public void tc() {
 		logger = LogManager.getLogger(getClass());
-		new File(System.getProperty("user.dir"), "log").mkdirs();
 		BaseClass br = new BaseClass();
-		br.setup(brr);
+		String bname = System.getProperty("brwoserName");;
+		if(null == bname){
+			br.setup(browser);
+			logger.info("Selecting brwoser from config.properties file ");
+		}
+		else{
+			br.setup(bname);
+			logger.info("Selecting brower from mvn param");
+		}
+		// br.setup(brr);
 		driver.get(baseURL);
 		logger.info("URL Opened");
 	}
@@ -116,10 +117,9 @@ public class BaseClass {
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
 		Files.copy(source, target);
 		System.out.println("Screenshot taken");
-//		C:\Users\orange\eclipse-workspace\Selenium_Test_Framework\Screenshots
 	}
 
-//	@AfterMethod
+	@AfterMethod
 	public void screenShot(ITestResult result) {
 
 		if (ITestResult.FAILURE == result.getStatus()) {

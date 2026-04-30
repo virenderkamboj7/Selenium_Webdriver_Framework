@@ -6,8 +6,6 @@ services:
     container_name: selenium-hub
     ports:
       - "4444:4444"
-    networks:          # <-- ADDED
-      - qa-network     # <-- ADDED  
 
   # Chrome Node: Registered to the Hub
   chrome:
@@ -19,8 +17,6 @@ services:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
-    networks:          # <-- ADDED
-      - qa-network     # <-- ADDED
 
   # Firefox Node: Registered to the Hub
   firefox:
@@ -32,9 +28,21 @@ services:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
-    networks:          # <-- ADDED
-      - qa-network     # <-- ADDED
 
-networks:              # <-- ADDED
-  qa-network:          # <-- ADDED
-    external: true     # <-- ADDED
+  jenkins:
+    image: jenkins/jenkins:lts
+    container_name: jenkins_server
+    restart: always
+    privileged: true
+    user: root
+    ports:
+      - "8080:8080"   #-- Web UI
+      - "50000:50000" #-- Agent communication
+    environment:
+      - JAVA_OPTS=-Djenkins.install.runSetupWizard=true
+    volumes:
+      - D:/jenkins_data:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock #-- Allows Jenkins to use host Docker   
+
+volumes:
+  jenkins_home:
