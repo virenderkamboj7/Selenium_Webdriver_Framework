@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-        choice(name: 'BROWSER', choices: ['chrome', 'firefox', 'edge'], description: 'Select the browser for test execution')
+        choice(name: 'BROWSER', choices: ['chrome', 'firefox', 'edge', "hub_chrome", "hub_firefox"], description: 'Select the browser for test execution')
         choice(name: 'testng', choices: ['testng.xml'], description: 'Select the testng xml file to execute test cases')
     }
     
