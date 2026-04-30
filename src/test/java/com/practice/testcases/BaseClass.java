@@ -42,6 +42,7 @@ public class BaseClass {
 
 	public static DateTimeFormatter dtf; // Date time formater
 	public static LocalDateTime now; // Get local time
+	private String gridUrlAsParam = System.getProperty("gridBaseUrlProperty");
 
 //	@BeforeClass
 	public void setup(String br) {
@@ -63,27 +64,41 @@ public class BaseClass {
 		else if(br.equals("hub_chrome")){
 			ChromeOptions options = new ChromeOptions();
 			URL gridUrl=null;
+			logger.debug("Grid url from parameter: "+gridUrlAsParam);
 			try {
-				gridUrl = new URL("http://localhost:4444/wd/hub");
+				if(null == gridUrlAsParam){
+					gridUrl = new URL("http://localhost:4444/wd/hub");
+					}
+				else{
+					gridUrl = new URL(gridUrlAsParam);
+					}
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
 			driver = new RemoteWebDriver(gridUrl, options);
 			driver.manage().window().maximize();
 			wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+			logger.info("Grid url: "+gridUrl);
 		}
 
 		else if(br.equals("hub_firefox")){
 			FirefoxOptions options = new FirefoxOptions();
+			logger.debug("Grid url from parameter: "+gridUrlAsParam);
 			URL gridUrl=null;
 			try {
-				gridUrl = new URL("http://localhost:4444/wd/hub");
+				if(null == gridUrlAsParam){
+					gridUrl = new URL("http://localhost:4444/wd/hub");
+					}
+				else{
+					gridUrl = new URL(gridUrlAsParam);
+					}
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
 			driver = new RemoteWebDriver(gridUrl, options);
 			driver.manage().window().maximize();
 			wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+			logger.info("Grid url: "+gridUrl);
 		}
 	}
 
@@ -98,7 +113,7 @@ public class BaseClass {
 	public void tc() {
 		logger = LogManager.getLogger(getClass());
 		BaseClass br = new BaseClass();
-		String bname = System.getProperty("brwoserName");;
+		String bname = System.getProperty("brwoserName");
 		if(null == bname){
 			br.setup(browser);
 			logger.info("Selecting brwoser from config.properties file ");

@@ -8,7 +8,7 @@ pipeline {
     
     environment {
         // The URL established using the Docker Compose network
-        SELENIUM_HUB_URL = 'http://selenium-hub:4444'
+        SELENIUM_HUB_URL = 'http://selenium-hub:4444/wd/hub'
     }
     
     tools {
@@ -44,7 +44,7 @@ pipeline {
             steps {
                 echo 'Running TestNG Suite on Selenium Grid...'
                 // Running the tests. The -DgridUrl dynamically passes the environment variable to your Java code.
-                sh "mvn test -DtestngFile=${testng} -DgridUrl=${SELENIUM_HUB_URL} -DbrwoserName=${BROWSER}"
+                sh "mvn test -DtestngFile=${testng} -DgridBaseUrlProperty=${SELENIUM_HUB_URL} -DbrwoserName=${BROWSER}"
             }
         }
     }
