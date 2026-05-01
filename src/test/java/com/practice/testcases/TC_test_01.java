@@ -15,13 +15,13 @@ public class TC_test_01 extends BaseClass {
 	public void signin() throws IOException {
 		
 	//Initialization of Page object classes	
-		HomepageObj homepageObj=PageFactory.initElements(driver, HomepageObj.class); //Page object of 'Homepage'
+		HomepageObj homepageObj=PageFactory.initElements(getDriver(), HomepageObj.class); //Page object of 'Homepage'
 		String UserDataExcelPath= "./src/test/java/com/practice/testData/UserData.xlsx";  //Excel path
 		
 		logger.info("*********Test Case 'TC_test_01' is started***********");
 		
 	//1. Click on Navigation icon	
-		wait.until(ExpectedConditions.elementToBeClickable(homepageObj.nav_icon())).click();
+		getWait().until(ExpectedConditions.elementToBeClickable(homepageObj.nav_icon())).click();
 		logger.info("Clicked on Navigation icon");
 		
 	//2. Enter email id	
@@ -29,18 +29,18 @@ public class TC_test_01 extends BaseClass {
 		logger.info("Clicked on Sign in button");
 
 	//3. Click on Continue button
-		wait.until(ExpectedConditions.elementToBeClickable(homepageObj.continueButton())).click();
+	getWait().until(ExpectedConditions.elementToBeClickable(homepageObj.continueButton())).click();
 		logger.info("Clicked on Continue button");
 	
 	//5. Click on Proceeed to Create ans Account Button
 		homepageObj.proceedButton().click();
 	
 	//6. Enter mobile number
-	wait.until(ExpectedConditions.visibilityOf(homepageObj.mobile())).sendKeys(XLUtils.getCellData(UserDataExcelPath, "ValidData", 20,1 ));
+		getWait().until(ExpectedConditions.visibilityOf(homepageObj.mobile())).sendKeys(XLUtils.getCellData(UserDataExcelPath, "ValidData", 20,1 ));
 	
 	//7. Enter User name
-	String username = XLUtils.getCellData(UserDataExcelPath, "ValidData", 2,1 ) + " "+XLUtils.getCellData(UserDataExcelPath, "ValidData", 3,1 );
-	homepageObj.userName().sendKeys(username);
+		String username = XLUtils.getCellData(UserDataExcelPath, "ValidData", 2,1 ) + " "+XLUtils.getCellData(UserDataExcelPath, "ValidData", 3,1 );
+		homepageObj.userName().sendKeys(username);
 
 	//8. Enter password
 		String password = null;

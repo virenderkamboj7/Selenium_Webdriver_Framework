@@ -27,7 +27,9 @@ import com.google.common.io.Files;
 import com.practice.utilities.ReadConfig;
 
 public class BaseClass {
-	public static WebDriver driver;
+	// public static WebDriver driver;
+	protected static ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal<>();
+    protected static ThreadLocal<WebDriverWait> threadLocalWait = new ThreadLocal<>();
 	public static Logger logger;
 
 	// Properties file
@@ -38,73 +40,83 @@ public class BaseClass {
 	public String email = readConfig.email(); // Email
 	private String browser = readConfig.getBrowser();
 
-	public static WebDriverWait wait;
+	// public static WebDriverWait wait;
 
 	public static DateTimeFormatter dtf; // Date time formater
 	public static LocalDateTime now; // Get local time
 	private String gridUrlAsParam = System.getProperty("gridBaseUrlProperty");
 
-//	@BeforeClass
+	public static WebDriver getDriver() {
+        return threadLocalDriver.get();
+    }
+
+    public static WebDriverWait getWait() {
+        return threadLocalWait.get();
+    }
+
 	public void setup(String br) {
 
-		if (br.equals("chrome")) {
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
-			driver.manage().window().maximize();
-			wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-		}
+		WebDriver driver = null; // Local variable for initialization
 
-		else if (br.equals("firefox")) {
-			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
-			driver.manage().window().maximize();
-			wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-		}
-
-		else if(br.equals("hub_chrome")){
-			ChromeOptions options = new ChromeOptions();
-			URL gridUrl=null;
-			logger.debug("Grid url from parameter: "+gridUrlAsParam);
-			try {
-				if(null == gridUrlAsParam){
-					gridUrl = new URL("http://localhost:4444/wd/hub");
-					}
-				else{
-					gridUrl = new URL(gridUrlAsParam);
-					}
-			} catch (MalformedURLException e) {
-				e.printStackTrace();
-			}
-			driver = new RemoteWebDriver(gridUrl, options);
-			driver.manage().window().maximize();
-			wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-			logger.info("Grid url: "+gridUrl);
-		}
+        if (br.equals("chrome")) {
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+        } 
+        else if (br.equals("firefox")) {
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
+        } 
+        else if(br.equals("hub_chrome")){
+            ChromeOptions options = new ChromeOptions();
+            URL gridUrl = null;
+            logger.debug("Grid url from parameter: " + gridUrlAsParam);
+            try {
+                if(null == gridUrlAsParam){
+                    gridUrl = new URL("http://localhost:4444/wd/hub");
+                } else {
+                    gridUrl = new URL(gridUrlAsParam);
+                }
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            }
+            driver = new RemoteWebDriver(gridUrl, options);
+            logger.info("Grid url: " + gridUrl);
+        }
 
 		else if(br.equals("hub_firefox")){
-			FirefoxOptions options = new FirefoxOptions();
-			logger.debug("Grid url from parameter: "+gridUrlAsParam);
-			URL gridUrl=null;
-			try {
-				if(null == gridUrlAsParam){
-					gridUrl = new URL("http://localhost:4444/wd/hub");
-					}
-				else{
-					gridUrl = new URL(gridUrlAsParam);
-					}
-			} catch (MalformedURLException e) {
-				e.printStackTrace();
-			}
-			driver = new RemoteWebDriver(gridUrl, options);
-			driver.manage().window().maximize();
-			wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-			logger.info("Grid url: "+gridUrl);
-		}
+            FirefoxOptions options = new FirefoxOptions();
+            URL gridUrl = null;
+            logger.debug("Grid url from parameter: " + gridUrlAsParam);
+            try {
+                if(null == gridUrlAsParam){
+                    gridUrl = new URL("http://localhost:4444/wd/hub");
+                } else {
+                    gridUrl = new URL(gridUrlAsParam);
+                }
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            }
+            driver = new RemoteWebDriver(gridUrl, options);
+            logger.info("Grid url: " + gridUrl);
+        }
+
+        // Set the ThreadLocal values for the current thread
+        if (driver != null) {
+            driver.manage().window().maximize();
+            threadLocalDriver.set(driver);
+            threadLocalWait.set(new WebDriverWait(getDriver(), Duration.ofSeconds(20)));
+        }
+
+		
 	}
 
 	 @AfterClass
 	public void terDown() {
-		driver.quit();
+		if (getDriver() != null) {
+            getDriver().quit(); // Close the browser
+            threadLocalDriver.remove(); // Clear the thread memory
+            threadLocalWait.remove(); // Clear the wait memory
+        }
 	}
 
 	// @Parameters("brr") 
@@ -123,7 +135,7 @@ public class BaseClass {
 			logger.info("Selecting brower from mvn param");
 		}
 		// br.setup(brr);
-		driver.get(baseURL);
+		getDriver().get(baseURL);
 		logger.info("URL Opened");
 	}
 
@@ -143,19 +155,13 @@ public class BaseClass {
 				dtf = DateTimeFormatter.ofPattern("yyyy.MM.dd HH.mm.ss");
 				now = LocalDateTime.now();
 				System.out.println("Current Time is: " + dtf.format(now));
-//				captureScreen(driver, driver.getTitle() + dtf.format(now));
-				captureScreen(driver,  dtf.format(now));
-
-//				System.out.println(
-//						"Successfully captured a screenshot named as: " + driver.getTitle() + " " + dtf.format(now));
-				System.out.println(
-						"Successfully captured a screenshot named as:  "  + dtf.format(now));
+				logger.debug(result.getName()+
+						"test case failed! Successfully captured a screenshot named as:  "  + dtf.format(now));
 			} catch (Exception e) {
 				System.out.println("Exception while taking screenshot " + e);
-//				.getMessage()
 			}
 		}
-		driver.quit();
+		getDriver().quit();
 	}
 
 }

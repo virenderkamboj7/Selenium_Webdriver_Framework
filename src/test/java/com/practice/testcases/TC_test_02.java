@@ -14,18 +14,18 @@ public class TC_test_02 extends BaseClass {
 	public void profuct_flow() throws InterruptedException {
 		
 		//Initialization of Page object classes	
-				HomepageObj homepageObj=PageFactory.initElements(driver, HomepageObj.class); //Page object of 'Homepage'
-				Categories categories=PageFactory.initElements(driver, Categories.class); //Page object of 'Categories'
+				HomepageObj homepageObj=PageFactory.initElements(getDriver(), HomepageObj.class); //Page object of 'Homepage'
+				Categories categories=PageFactory.initElements(getDriver(), Categories.class); //Page object of 'Categories'
 				
 				
 		//Initialization of helper classes		
-				Actions act=new Actions(driver);
+				Actions act=new Actions(getDriver());
 				
 				logger.info("*********Test Case 'TC_test_02' is started***********");
 				
 		//1. Click on "Computer" button		
 				
-				wait.until(ExpectedConditions.elementToBeClickable(homepageObj.computerButton()));
+			getWait().until(ExpectedConditions.elementToBeClickable(homepageObj.computerButton()));
 				act.moveToElement(homepageObj.computerButton()).click().build().perform();
 				homepageObj.computerButton().click();
 				logger.info("Clicked on \"Electronics\" button");
@@ -35,7 +35,7 @@ public class TC_test_02 extends BaseClass {
 				logger.info("Hover over \"Cameras\" button");
 				
 		//3. Click on "Nikon" button	
-				wait.until(ExpectedConditions.elementToBeClickable(categories.nikon_button())).click();
+			getWait().until(ExpectedConditions.elementToBeClickable(categories.nikon_button())).click();
 				logger.info("Clicked on \"Nikon\" button");
 				
 		// //4. Click on first product
