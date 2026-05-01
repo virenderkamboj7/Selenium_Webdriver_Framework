@@ -30,7 +30,8 @@ public class TC_test_02 extends BaseClass {
 				homepageObj.computerButton().click();
 				logger.info("Clicked on \"Electronics\" button");
 		
-		//2. Hover over "Cameras" button		
+		//2. Hover over "Cameras" button
+				getWait().until(ExpectedConditions.elementToBeClickable(categories.cameras_button()));
 				act.moveToElement(categories.cameras_button()).build().perform();
 				logger.info("Hover over \"Cameras\" button");
 				
