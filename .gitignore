@@ -17,7 +17,6 @@ test-output/
 temp-testng.xml
 report/
 **/site/
-**/screenshots/
 
 # --- Logging files (Log4j 2) ---
 *.log

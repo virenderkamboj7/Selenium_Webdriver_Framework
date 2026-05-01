@@ -124,11 +124,11 @@ public class BaseClass {
 		String bname = System.getProperty("brwoserName");
 		if(null == bname){
 			br.setup(browser);
-			logger.info("Selecting brwoser from config.properties file ");
+			logger.info("Selecting brwoser from config.properties file");
 		}
 		else{
 			br.setup(bname);
-			logger.info("Selecting brower from mvn param");
+			logger.info("Selecting brwoser from mvn paran");
 		}
 		getDriver().get(baseURL);
 		logger.info("URL Opened");

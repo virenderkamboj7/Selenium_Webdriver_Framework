@@ -31,13 +31,15 @@ public class TC_test_02 extends BaseClass {
 				logger.info("Clicked on \"Electronics\" button");
 		
 		//2. Hover over "Cameras" button
+				getWait().until(ExpectedConditions.visibilityOf(categories.cameras_button()));
 				getWait().until(ExpectedConditions.elementToBeClickable(categories.cameras_button()));
 				act.moveToElement(categories.cameras_button()).build().perform();
 				logger.info("Hover over \"Cameras\" button");
 				
 		//3. Click on "Nikon" button	
+			getWait().until(ExpectedConditions.visibilityOf(categories.nikon_button()));
 			getWait().until(ExpectedConditions.elementToBeClickable(categories.nikon_button())).click();
-				logger.info("Clicked on \"Nikon\" button");
+			logger.info("Clicked on \"Nikon\" button");
 				
 		// //4. Click on first product
 		// 		categories.first_product().click();
