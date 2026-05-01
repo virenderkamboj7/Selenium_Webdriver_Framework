@@ -106,8 +106,6 @@ public class BaseClass {
             threadLocalDriver.set(driver);
             threadLocalWait.set(new WebDriverWait(getDriver(), Duration.ofSeconds(20)));
         }
-
-		
 	}
 
 	 @AfterClass
@@ -119,9 +117,7 @@ public class BaseClass {
         }
 	}
 
-	// @Parameters("brr") 
 	@BeforeClass
-	// public void tc(String brr) {
 	public void tc() {
 		logger = LogManager.getLogger(getClass());
 		BaseClass br = new BaseClass();
@@ -134,7 +130,6 @@ public class BaseClass {
 			br.setup(bname);
 			logger.info("Selecting brower from mvn param");
 		}
-		// br.setup(brr);
 		getDriver().get(baseURL);
 		logger.info("URL Opened");
 	}
@@ -155,6 +150,7 @@ public class BaseClass {
 				dtf = DateTimeFormatter.ofPattern("yyyy.MM.dd HH.mm.ss");
 				now = LocalDateTime.now();
 				System.out.println("Current Time is: " + dtf.format(now));
+				captureScreen(getDriver(),  dtf.format(now));
 				logger.debug(result.getName()+
 						"test case failed! Successfully captured a screenshot named as:  "  + dtf.format(now));
 			} catch (Exception e) {
